@@ -12,6 +12,21 @@ This Machine Learning project aims to predict whether an object underwater is a 
 
 4. **Resource Exploration**: In industries like mining and oil exploration, identifying underwater formations helps in resource exploration and extraction.
 
+## What is Logistic Regression?
+
+### Explanation of Logistic Regression:
+
+Logistic regression is a predictive modeling technique used when the target variable is binary, meaning it has only two possible outcomes. In this project, the target variable is whether the object underwater is a rock or a mine, making it a binary classification problem.
+
+Logistic regression works by fitting a logistic function to the input features, which transforms the output into a probability score between 0 and 1. This probability score represents the likelihood of the input belonging to a certain class—in this case, either rock or mine. By setting a threshold, typically 0.5, the model can then classify the input into one of the two classes based on whether the probability exceeds the threshold.
+
+### Suitability for the Project:
+
+Logistic regression is chosen for its simplicity, interpretability, and effectiveness in binary classification tasks. It can handle both linear and nonlinear relationships between the features and the target variable, making it versatile for various types of data. Additionally, logistic regression provides probabilistic outputs, allowing for a more nuanced understanding of the model's predictions.
+
+Given the nature of the data collected from sonar readings and the need to predict discrete categories (rock or mine), logistic regression is well-suited for this project's requirements. Its ability to provide probabilistic predictions and its straightforward implementation make it a practical choice for classifying underwater objects based on sonar data.
+
+
 ## Steps Involved in the Project 📝
 
 ### Step 1: Importing Dependencies 📦
